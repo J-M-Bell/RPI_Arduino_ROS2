@@ -1,0 +1,3 @@
+/servo_control:
+  ros__parameters:
+    control_method: joystick_control # automatic_sweep, joystick_control,temperature_control

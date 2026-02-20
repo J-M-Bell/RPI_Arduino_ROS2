@@ -1,0 +1,8 @@
+<launch>
+    <node pkg="rpi_test" exec="temperature_sensor" name="temperature_sensor_node" output="screen"/>
+    <node pkg="rpi_arduino" exec="joystick_control" name="joystick_control_node" output="screen"/>
+    <node pkg="rpi_arduino" exec="servo_control" name="servo_control_node" output="screen">
+        <param from="$(find-pkg-share rpi_bringup)/config/rpi_arduino.yaml"/>
+    </node>
+    <!-- <node pkg="rpi_test" exec="create_folder_server" name="create_folder_server_node" output="screen"/> -->
+</launch>
