@@ -1,0 +1,7 @@
+my_robot_description/CMakeLists.txt
+my_robot_description/package.xml
+my_robot_description/launch/rsp.launch.xml
+my_robot_description/urdf/my_robot.urdf
+my_robot_description/launch/rsp.launch.xml
+template_python_node.py
+test_comm.py
